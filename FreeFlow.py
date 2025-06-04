@@ -55,7 +55,7 @@ def mostrar_tablero_coloreado(grid, n):
                 fila += f"{color}{val} {Style.RESET_ALL}"
         print(fila)
 
-# ===========================
+# ======================#autores
 # FUNCION: es_camino_valido()
 # ===========================
 def es_camino_valido(grid, par, celdas, pairs):
@@ -89,16 +89,16 @@ def es_camino_valido(grid, par, celdas, pairs):
 
     return True
 
-# ===========================
+# ==========Хуан Давид Санчес
 # FUNCION: trazar_camino()
-# ===========================
+# ==========Алехандро Пинсон
 def trazar_camino(grid, par, celdas):
     for r, c in celdas:
         grid[r][c] = par
 
-# ===========================
+# ==========Хуан Давид Санчес
 # FUNCION: encontrar_caminos()
-# ===========================
+# ==========Алехандро Пинсон
 def encontrar_caminos(grid, n, inicio, fin):
     caminos = []
     cola = deque()
